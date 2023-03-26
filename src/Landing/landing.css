@@ -1,0 +1,78 @@
+.landingPageMain{
+    background-color: #080c49;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.landingHome{
+    display: flex;
+    flex-direction: row;
+}
+.landingWelcomeMsgContainer{
+    margin: auto 0;
+    max-width: 35vw;
+    color: white;
+    padding: 8vh 8vw;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: left;
+}
+.landingWelcomeMessage{
+    margin: 0;
+}
+.landingParagraph{
+    margin: 0;
+}
+.landingHomeImages{
+    height: 100vh;
+    width: 100vh;
+    position: relative;
+}
+.landingCircle1{
+    position: absolute;
+    z-index: 2;
+    height: 90vh;
+    width: 90vh;
+    right: -12vw;
+    top: 5vh;
+    border-radius: 50%;
+    background-color: #181e57;
+}
+.landingCircle2{
+    height: 110vh;
+    width: 110vh;
+    border-radius: 50%;
+    right: -12vw;
+    top: -5vh;
+    position: absolute;
+    z-index: 1;
+    background-color: #10144f;
+}
+.landingImage1{
+    position: absolute;
+    height: 30vh;
+    width: 44vh;
+    z-index: 4;
+    border-radius: 5vh;
+    right: 18vw;
+    top: 35vh;
+    object-fit: cover;
+}
+.landingImage2{
+    position: absolute;
+    height: 30vh;
+    width: 44vh;
+    z-index: 3;
+    right: 8vw;
+    top: 20vh;
+    border-radius: 5vh;
+}
+.landingImage3{
+    position: absolute;
+    height: 30vh;
+    width: 44vh;
+    z-index: 3;
+    right: 28vw;
+    top: 50vh;
+    border-radius: 5vh;
+}
